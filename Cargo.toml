@@ -13,3 +13,4 @@ futures = "0.3.30"
 
 aws-config = { version = "1.1.7", features = ["behavior-version-latest"] }
 aws-sdk-s3 = "1.37.0"
+rs-file-utils = {git = "https://github.com/Dgarc359/rs-file-util", branch = "main" }

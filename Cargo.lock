@@ -1385,6 +1385,7 @@ dependencies = [
  "aws-sdk-s3",
  "futures",
  "reqwest",
+ "rs-file-utils",
  "tokio",
 ]
 
@@ -1581,6 +1582,11 @@ dependencies = [
  "untrusted",
  "windows-sys 0.52.0",
 ]
+
+[[package]]
+name = "rs-file-utils"
+version = "0.3.0"
+source = "git+https://github.com/Dgarc359/rs-file-util?branch=main#fb1010d4275388065ef0324f823f71ceaa6ba001"
 
 [[package]]
 name = "rustc-demangle"
